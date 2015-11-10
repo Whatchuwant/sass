@@ -1,0 +1,37 @@
+
+
+Backtrace:
+stylesheets/main.scss:25
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:1097:in `expected'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:1092:in `tok!'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:639:in `block'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:707:in `declaration_or_ruleset'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:646:in `block_contents'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:631:in `ruleset'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:656:in `block_child'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/scss/parser.rb:42:in `parse'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/juliereinken/.rvm/gems/ruby-2.2.3/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...clude black(.2)\": expected \"}\", was \"color: #FF33CC;\"\A         on line 25 of stylesheets/main.scss\A \A 20:   color: #00FFFF;\A 21: }\A 22: nav {\A 23:   a {\A 24:   	@include black(.2)\A 25:     color: #FF33CC;\A 26:  \A 27:   &:hover { color: #66FF33;\A 28: }\A 29: }\A 30: }"; }

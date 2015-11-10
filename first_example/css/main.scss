@@ -1,0 +1,56 @@
+$primary-color: #BBBBFF;
+$size: 30px;
+
+@mixin opacity($opacity){
+	-webkit-opacity: $opacity;
+	-moz-opacity: $opacity;
+	-ms-opacity: $opacity;
+	-o-opacity: $opacity;
+}
+
+.opacity { @include opacity(.9);
+	background-color:#BBBBFF;
+}
+
+
+@mixin border-radius($radius) {     
+  	-webkit-border-radius: $radius;        
+  	-moz-border-radius: $radius;         
+  	-ms-border-radius: $radius;          
+  	-o-border-radius: $radius;             
+  	border-radius: $radius;   
+  }
+.box { @include border-radius(10px);
+	 border: 5px black solid;
+	 @include opacity(.4);
+	 a {
+	  font-size: 30px;
+	  font-weight: bold;
+	  background: #404853;
+	  background: linear-gradient(#687587, #404853);
+	  color: #fff;
+	  display: inline;
+	  padding: 0 20px;
+	  line-height: 38px;
+	  text-decoration: none;
+}
+
+  }
+
+body {
+	background-color: $primary-color;
+	
+}
+
+nav {   
+ 
+		li {     
+			font-size: $size;
+			display: inline;   
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			} 
+
+
+		}

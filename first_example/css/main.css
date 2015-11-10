@@ -1,0 +1,40 @@
+.opacity {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  -ms-opacity: 0.9;
+  -o-opacity: 0.9;
+  background-color: #BBBBFF; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: 5px black solid;
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  -ms-opacity: 0.4;
+  -o-opacity: 0.4; }
+  .box a {
+    font-size: 30px;
+    font-weight: bold;
+    background: #404853;
+    background: linear-gradient(#687587, #404853);
+    color: #fff;
+    display: inline;
+    padding: 0 20px;
+    line-height: 38px;
+    text-decoration: none; }
+
+body {
+  background-color: #BBBBFF; }
+
+nav li {
+  font-size: 30px;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
