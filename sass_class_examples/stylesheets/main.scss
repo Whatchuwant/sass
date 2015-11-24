@@ -1,31 +1,27 @@
- @mixin black($opacity) {
- 	        background-color: black;
- 	        opacity: $opacity;   
- 	    }   
+@mixin black($opacity) {
+      background-color: black;
+      opacity: $opacity;}   
 
 @mixin white($opacity) {
-	background-color: white;
-		opacity: $opacity;
-} 	    
-
-
+    	background-color: white;
+  		opacity: $opacity;} 	    
 
 body {
-  background-color: #CCFFF5;
-}
+      background-color: #CCFFF5;}
 
 h1 {
-  font-family: sans-serif;
-  font-size: 33px;
-  color: #00FFFF;
-}
+    font-family: sans-serif;
+    font-size: 33px;
+    color: #00FFFF;}
+
 nav {
-  a {
-  	@include black(.2)
-    color: #FF33CC;
+      a {
+      	@include black(.2)
+        color: #FF33CC;
  
-  &:hover { color: #66FF33;
-}
-}
+        &:hover { 
+          color: #66FF33;
+    }
+  }
 }
 

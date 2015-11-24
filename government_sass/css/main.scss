@@ -1,18 +1,24 @@
 body {
 	background-color: #EBE8E4;
 }
+
 nav {
 	font-family: "Raleway,'Helvetica Neue',Helvetica,Arial,sans-serif";
   background-color: white;
   height: 60px;
-  margin-top: 0px;
-}
-nav ul {padding-top: 20px}
-nav ul li {
+  margin-top: 0px;}
+
+nav {
+  ul {
+  padding-top: 20px;}
+
+
+ li {
 	display: inline-block;
 	list-style-type: none;
-}
-nav ul li a {
+  }
+
+  a {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -21,14 +27,13 @@ nav ul li a {
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
 	-o-transition: all 0.2s;
-	transition: all 0.2s; 
-}
-nav ul li a:hover { 
-    color: #CD6839;
-}
+	transition: all 0.2s;}
+
+  a:hover { 
+    color: #CD6839;}
+}    
 
 #myImage {
    opacity: 0.4;
     filter: alpha(opacity=40);
-    width: 100%;
-}
+    width: 100%;}
